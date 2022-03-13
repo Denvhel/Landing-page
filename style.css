@@ -59,7 +59,7 @@ ul {
     width: 500px;
 }
 
-button {
+.button-up {
     background-color: #3882F6;
     border-radius: 15%;
     border-style: none;
@@ -106,7 +106,7 @@ button {
 }
 
 .lower-information {
-    background-color:#a5abb3;
+    background-color:#c8cbcf;
     padding: 10px 200px 10px 200px;
 }
 
@@ -120,4 +120,40 @@ button {
     flex-direction: column;
     align-items: flex-end;
     padding-right: 200px;
+}
+
+.action {
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 50px 25px 50px;
+    margin: 40px 200px 40px 200px;
+    width: 700px;
+    height: 40px;
+}
+
+.low-button {
+    display: flex;
+    align-items: flex-end;
+    background-color: #3882F6;
+    border: solid 2px white;
+    border-radius: 10%;
+    color: white;
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    background: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
 }
