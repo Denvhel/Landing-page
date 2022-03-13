@@ -66,3 +66,58 @@ button {
     padding: 5px 25px 5px 25px;
     color: white;
 }
+
+.h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.thumbnail {
+    width: 75px;
+    height: 75px;
+    border: solid 2px #3882F6;
+    border-radius: 10%;
+    padding: 5px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.upper-information {
+    display: flex;
+    gap: 40px;
+}
+
+.image-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:#3882F6;
+    font-weight: bold;
+}
+
+.lower-information {
+    background-color:#a5abb3;
+    padding: 10px 200px 10px 200px;
+}
+
+.quote {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.author {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 200px;
+}
